@@ -15,8 +15,8 @@ set_target_properties(test1 PROPERTIES RUNTIME_OUTPUT_DIRECTORY "${CMAKE_BINARY_
 
 target_compile_features(test1
   PRIVATE
-    cxx_std_17
-    # cxx_std_20
+    # cxx_std_17
+    cxx_std_20
 )
 
 install(
