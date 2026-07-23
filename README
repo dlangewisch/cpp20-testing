@@ -1,0 +1,4 @@
+To build with VS2022:
+
+	cmake --preset=vs2022 --fresh
+	cmake --build --preset=vs2022 --target=install
