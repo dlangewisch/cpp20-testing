@@ -10,12 +10,12 @@
     },
     {
       "name": "fmt",
-      "version>=": "11.0.2"
+      "version>=": "12.2.0"
     },
     {
       "name": "spdlog",
-      "version>=": "1.15.1"
+      "version>=": "1.17.0"
     }
   ],
-  "builtin-baseline": "e2e3f654bc45c28f2696ace32d66f28429bb3b28"
+  "builtin-baseline": "43643e1f5cf73db40d0d4bd610183348eb09b24e"
 }
