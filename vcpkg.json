@@ -1,0 +1,21 @@
+{
+  "dependencies": [
+    {
+      "name": "catch2",
+      "version>=": "3.8.0"
+    },
+    {
+      "name": "eigen3",
+      "version>=": "3.4.0"
+    },
+    {
+      "name": "fmt",
+      "version>=": "11.0.2"
+    },
+    {
+      "name": "spdlog",
+      "version>=": "1.15.1"
+    }
+  ],
+  "builtin-baseline": "e2e3f654bc45c28f2696ace32d66f28429bb3b28"
+}

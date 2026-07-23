@@ -1,0 +1,16 @@
+{
+  "registries": [
+    {
+      "kind": "artifact",
+      "location": "https://github.com/microsoft/vcpkg-ce-catalog/archive/refs/heads/main.zip",
+      "name": "microsoft"
+    }
+  ],
+  "overlay-triplets": [
+	  "cmake/custom-triplets"
+  ],
+  "overlay-ports": [
+	  "cmake/custom-ports"
+  ]
+}
+
