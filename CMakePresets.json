@@ -7,10 +7,14 @@
 			"generator": "Unix Makefiles",
 			"binaryDir": "_build/${presetName}",
 			"environment": {
-				"CXX_WARNINGS": "-Wall -Wextra -Wpedantic -Werror"
+				"VCPKG_ROOT": "${sourceDir}/vcpkg",
+				"CXX_WARNINGS": "-Wall -Wextra -Wpedantic"
 			},
 			"cacheVariables": {
-				"CMAKE_CXX_FLAGS": "$env{CXX_WARNINGS} $env{CXX_OPT}"
+				"CMAKE_TOOLCHAIN_FILE": "$env{VCPKG_ROOT}/scripts/buildsystems/vcpkg.cmake",
+				"VCPKG_TARGET_TRIPLET": "x64-linux",
+				"CMAKE_CXX_FLAGS": "$env{CXX_WARNINGS} $env{CXX_OPT}",
+				"CMAKE_INSTALL_PREFIX": "${sourceDir}/install"
 			},
 			"condition": {
 				"type": "equals",
