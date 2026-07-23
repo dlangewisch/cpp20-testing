@@ -33,7 +33,8 @@ int main() {
   fmt::print("opt: {}\n", opt);
   fmt::print("var: {}\n", var);
 
-  Widget w {1, 2};
+  Widget w {.x=1, .y=2};
+
   fmt::print("w: {}\n", fmt::streamed(w));
   std::cout << "w: " << w << "\n";
 
